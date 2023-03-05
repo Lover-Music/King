@@ -2,7 +2,7 @@
 
 <h4 align="center">Mahi A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
-<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg" width="400"></a></p>
+<p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://telegra.ph/file/b0cf375da1dbadc69036a.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using Mahi,  🤭 That is the greatest pleasure we have !
