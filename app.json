@@ -1,12 +1,12 @@
 {
-    "name": "Shizuka Music Bot",
-    "description": "Shizuka Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/798b7275e58d09ac6b095.jpg",
+    "name": "Mahi Music Bot",
+    "description": "Mahi Music Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Shizuka",
+    "mahi",
     "telegram-music-bot",
     "telegram-bot",
     "pyrogram"
@@ -40,12 +40,12 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "⁪⁬",
+        "value": "⁪⁬Mahi ✘ music",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5463205082",
+        "value": "1548904516",
         "required": true
       },
       "STRING_SESSION": {
@@ -55,12 +55,12 @@
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
-        "value": "",
+        "value": "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg",
         "required": false
       },
       "START_IMG_URL": {
         "description": "The pic which will be shown when you /start the bot in private.",
-        "value": "",
+        "value": "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -75,12 +75,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1001839472020",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/its-star-boi/ShizukaXMusic",
+        "value": "https://github.com/Xdarnav/MahiMusicxd/edit/main/app.json",
         "required": true
       },
       "UPSTREAM_BRANCH": {
