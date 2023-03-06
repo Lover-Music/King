@@ -7,30 +7,30 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "18960528"))
+API_HASH = getenv("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5983601762:AAHlcyM92GYwldQ_JnW6s3HgkjYX1rge25g")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI, "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001583255537"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lover Music")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1548904516").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Xdarnav/MahiMusicxd",
+    "https://t.me/shubhamsah1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Xdarnav/MahiMusicxd")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/shubhamsah1")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT")
@@ -62,7 +62,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQAo1tuJohjJpbgCbGVTuMfksGe3QdcHutlrgFfE8gBGzqIiSgnhy_0p5JZY4qS_lESFVdDPHuQJg6nS61nbm01mm6GcW4BgOLDTd_vYjdTSdYdsKTwxiWmld2mFPjmV1duqF3ffr0EdbhIS_fjPgSccAXkbf8x63MrHo4N8l7IyTJT3tJ12s_udqGIzRBolML0QCZXqowob6TGzviE8Vqy3izA2k_XT1htsn60WGINj_Zo3scYHP4gKRgcPYzCjlO_EF25267Ld_YyokPKYtzifmGaECj5ZZ-Mu4MW0JIEGKJdUSGod11cEXUqX7ufVYRL2ctW-Mh5CbOlYUJqjfF4pAAAAAV6DPFwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
